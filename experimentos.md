@@ -31,4 +31,21 @@
 > ROI
 # Experimentos:
 
-### Exp 1:
+### **Exp 1: regressao_1_lstm**
+
+ - Modelo de ML usado: LSTM
+ - Técnica de ML: Regressão
+ - Quais foram as features: Open, High, Low, Close, Volume
+ - Qual foi o alvo a ser predito: Close +1d
+ - Quantidade de amostras: 3067
+ - Threshold: >>>>>
+ - Window Size: >>>>>
+ - Função de Ativação: >>>>>
+ - Otimizadores: >>>>>
+ - Épocas e earlystop: >>>>>
+ - - patience:  
+ - Loss e Loss/Épocas: >>>>>
+ - Acurácia e Acurácia/Épocas: >>>>>
+ - Resultados - Métricas: >>>>>
+ - - 
+ - ROI
