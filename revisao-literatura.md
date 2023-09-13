@@ -1,7 +1,7 @@
 # Revisão de Literatura
 Título | Autores | Ano | Objetivo | Base de Dados | Informações da Base | Metodologias Propostas | Métricas e Resultados | Pontos Positivos | Pontos Negativos | Link 
 
-### Forecasting Bitcoin with technical analysis: A not-so-random forest?
+## Forecasting Bitcoin with technical analysis: A not-so-random forest?
 
 > Referências interessantes na introdução e conclusão da introdução
 >
@@ -38,13 +38,16 @@ use the hourly and daily sampling frequency for the BTC/USD. May 11, 2015 to Mar
  - **Pontos Negativos**
  - **Link**
 
-### Stock Market Forecasting with Different Input  Indicators using Machine Learning and Deep Learning Techniques: A Review
+## Stock Market Forecasting with Different Input  Indicators using Machine Learning and Deep Learning Techniques: A Review
 > Mostra que modelos de Deep Learning são os mais populares - LSTM, CNN, etc.
 > SVM é o segundo mais popular
 >
 > Muitos utilizam modelos hibridos, para pegar benefícios de modelos diferentes
 >
 > Os modelos de Deep Learning são promissores para previsão financeira. Incorporar otimizações dos métodos e módulos de Deep Learning podem melhorar modelagem preditiva.
+> 
+> "The literature shows that deep learning  models  (LSTM,  CNN,  etc.)  are  the  most  popular ones. SVM is the second most popular approach. Hybridization of more than one method is the recent trend to grab the benefits of different methods. Optimization techniques  are  also  trending  along  with  traditional  machine learning approaches"
+>MSE,  RMSE,  MAE,  MAPE, Accuracy, Precision, Recall, and F-score is the popular performance measures. MSE, RMSE, MAE, and MAPE are considered for regression problems (stock price  prediction), whereas Accuracy, Precision, Recall, and F-score are considered for classification problems (stock trend rediction).
 
  - **Autores**
  - **Ano**
@@ -57,11 +60,11 @@ use the hourly and daily sampling frequency for the BTC/USD. May 11, 2015 to Mar
  - **Pontos Negativos**
  - **Link**
 
-### Um modelo de Rede Neural de classificação para predição da tendência do preço Bitcoin
+## Um modelo de Rede Neural de classificação para predição da tendência do preço Bitcoin
 
 > Usou poucos dados, apenas 418;
 > 
-> Usou apenas treino e teste (344, 84);
+> Usou apenas treino e teste (334, 84);
 > 
 > Utilizou apenas dados do candlestick;
 >

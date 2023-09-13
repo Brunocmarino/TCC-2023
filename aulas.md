@@ -1,3 +1,10 @@
+## TTC-1 13/09/23
+#### Apresentação TCC1
+ - Definição do cronograma na proxima semana
+ - Revisão de Literatura (crie dúvidas)
+ - Correção do código (falar com o Gui)
+
+
 ## TTC-1 26/07/23
 #### Apresentação TCC1
 #### Observações a serem pesquisadas
@@ -5,6 +12,7 @@
  - Verificar o valor da loss
  - Gráfico da acurácia x época
  - Usar tabela pra mostrar resultados
+ - CrossValidation
 #### Férias
 Começar a escrever a revisão de literatura 
 Criar sumário
