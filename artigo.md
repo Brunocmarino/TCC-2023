@@ -45,21 +45,25 @@
 ### Fundamentação Teórica
 
 #### Um modelo de Rede Neural de classificação para predição da tendência do preço Bitcoin
-    Utilizou o modelo LSTM para classificar se o valor do Bitcoin subiu ou caiu, através de uma análise dos valores do gráfico de velas (*candlestick*) semanal e do volume de negociações. Usou apenas 418 valores, referentes às semanas, e os dividiu em treino e teste (334, 84).
+    Utilizou o modelo LSTM para classificar se o valor do Bitcoin subiu ou caiu, através de uma análise do histórico de preço semanal e do volume de negociações. Usou apenas 418 valores, referentes às semanas.
 
-    O artigo variou a janela de observação (*timesteps*) e as épocas (*epochs*). Também analisou a utilização de dados macroeconômicos junto ao modelo.
+    O artigo variou a janela de observação (*timesteps*) e as épocas (*epochs*). Também analisou a utilização de dados macroeconômicos junto ao modelo, porém gerou uma acurácia menor (51,82%), se comparada à utilização apenas dos dados históricos do bitcoin (52,9%)
 
     Gerou um retorno sobre o investimento, caso comprasse ou vendesse o bitcoin de acordo com o modelo criado, e métricas de acurácia. Comparou os resultados à algumas estratégias de negociação de ativos. Seu modelo apenas com os dados do bitcoin, atingiu uma acurácia de 52,9% e um retorno sobre o investimento de 122,82%.
 
 
-#### Stock Market Forecasting with Different Input  Indicators using Machine Learning and Deep Learning Techniques: A Review
+#### Stock Market Forecasting with Different Input Indicators using Machine Learning and Deep Learning Techniques: A Review
 
     Realizou um estudo sobre 50 artigos publicados entre Jan-2018 to Dec-2021 que utilizam machine learning e deep learning para previsão do mercado de ações. Foram levados em consideração preços históricos, indicadores técnicos e fundamentalistas, análise de sentimentos e outros fatores.
 
     O artigo conclui que a literatura mostra que os modelos de aprendizagem profunda (LSTM, CNN, etc.) são os mais populares. SVM é a segunda abordagem mais popular. Também ressalta que a hibridização de mais de um método é a tendência recente para aproveitar os benefícios de cada um. As técnicas de otimização também estão em alta junto com as abordagens tradicionais de aprendizado de máquina
 
-    MSE, RMSE, MAE, MAPE,Precisão, precisão, recall e pontuação F são os populares medidas de desempenho. MSE, RMSE, MAE e MAPE são
-considerado para problemas de regressão (previsão do preço das ações), enquanto Precisão, Precisão, Recall e pontuação F são considerado para problemas de classificação (tendência de ações predição).
+    Os autores concluem que, em relação às métricas de desenpenho MSE, RMSE, MAE, MAPE, Acurácia, precisão, recall e F-score são as as mais populares. Para problemas de regressão (previsão do preço das ações) são mais utilizados MSE, RMSE, MAE e MAPE; enquanto para problemas de classificação (predição da tendência das ações ), Acurácia, Precisão, Recall e F-score são considerados
+    MSE, RMSE, MAE, MAPE, Acurácia, precisão, recall e F-score são as medidas de desempenho mais populares. 
+
+#### An Empirical Study on Modeling and Prediction of Bitcoin Prices With Bayesian Neural Networks Based on Blockchain Information
+
+    O Artigo seleciona as mais relevantes features da blockchain do bitcoin e as utiliza para treinar um modelo de predição do preço de negociação do ativo
 
 ### Ler depois 
 https://medium.com/analytics-vidhya/predicting-bitcoin-prices-with-lstm-19e578d389c4
