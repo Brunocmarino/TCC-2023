@@ -58,7 +58,7 @@
 
     O artigo conclui que a literatura mostra que os modelos de aprendizagem profunda (LSTM, CNN, etc.) são os mais populares. SVM é a segunda abordagem mais popular. Também ressalta que a hibridização de mais de um método é a tendência recente para aproveitar os benefícios de cada um. As técnicas de otimização também estão em alta junto com as abordagens tradicionais de aprendizado de máquina
 
-    Os autores concluem que, em relação às métricas de desenpenho MSE, RMSE, MAE, MAPE, Acurácia, precisão, recall e F-score são as as mais populares. Para problemas de regressão (previsão do preço das ações) são mais utilizados MSE, RMSE, MAE e MAPE; enquanto para problemas de classificação (predição da tendência das ações ), Acurácia, Precisão, Recall e F-score são considerados
+    Os autores concluem que, em relação às métricas de desenpenho MSE, RMSE, MAE, MAPE, Acurácia, precisão, recall e F-score são as as mais populares. Para problemas de regressão (previsão do preço das ações) são mais utilizados MSE, RMSE, MAE e MAPE; enquanto para problemas de classificação (predição da tendência das ações ), Acurácia, Precisão, Recall e F-score são considerados  
     MSE, RMSE, MAE, MAPE, Acurácia, precisão, recall e F-score são as medidas de desempenho mais populares. 
 
 #### An Empirical Study on Modeling and Prediction of Bitcoin Prices With Bayesian Neural Networks Based on Blockchain Information
