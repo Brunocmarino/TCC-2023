@@ -1,15 +1,15 @@
-# Single Layer LSTM Classification 5
+# Single Layer LSTM Classification 6
 
-    df.Close.size: 3332 
+    df.Close.size: 3332
     target_df_Close.size: 3317
     target_df_Change.size: 3317
     target_df_Variation.size: 3317
     target_df_Class.size: 3317
 
     Target Class
-    0     213
-    1    2868
-    2     236
+    0      99
+    1    3091
+    2     127
     Name: YClass, dtype: int64
 
     Tamanhos dos dados:
@@ -34,64 +34,63 @@
 ## Melhor modelo RandomSearch
 
     Trial 100 Complete
-    Best val_loss So Far: 0.605977863073349
-    Total elapsed time: 01h 51m 06s
+    Best val_loss So Far: 0.3572828024625778
+    Total elapsed time: 01h 28m 31s
     Objective(name="val_loss", direction="min")
 
-    Trial 013 summary
+    Trial 030 summary
     Hyperparameters:
-    num_lstm_units: 32
-    dropout_rate: 0.19440549975128163
-    learning_rate: 0.08961982192815122
-    Score: 0.605977863073349
-    ![Alt text](image.png)
+    num_lstm_units: 16
+    dropout_rate: 0.16830377128690507
+    learning_rate: 0.07964892979213052
+    Score: 0.3572828024625778
+
 ## Treinamento 
     Treinado por 500 épocas com EarlyStop com paciência de 100 épocas
-![Alt text](./img/loss5.png)
+![Alt text](./img/loss6.png)
 
 ## Métricas de Classificação
 
-    ----- Métricas de Classificação -----
     ------------- Train -------------
     Métricas por classe:
-    Precisão: [0.         0.85695821 0.        ]
+    Precisão: [0.         0.92718656 0.        ]
     Recall: [0. 1. 0.]
-    F1-Score: [0.         0.92296984 0.        ]
+    F1-Score: [0.         0.96221775 0.        ]
     AUC Médio: [0.5 0.5 0.5]
 
     Média das métricas:
-    Acurácia: 0.8569582076691081
-    Precisão: 0.8569582076691081
-    Recall: 0.8569582076691081
-    F1-Score: 0.8569582076691081
-    AUC Médio: 0.8927186557518313
+    Acurácia: 0.927186557518311
+    Precisão: 0.927186557518311
+    Recall: 0.927186557518311
+    F1-Score: 0.927186557518311
+    AUC Médio: 0.9453899181387333
 
     ----------- Validation ----------
     Métricas por classe:
-    Precisão: [0.         0.81570997 0.        ]
+    Precisão: [0.         0.91238671 0.        ]
     Recall: [0. 1. 0.]
-    F1-Score: [0.        0.8985025 0.       ]
+    F1-Score: [0.         0.95418641 0.        ]
     AUC Médio: [0.5 0.5 0.5]
 
     Média das métricas:
-    Acurácia: 0.8157099697885196
-    Precisão: 0.8157099697885196
-    Recall: 0.8157099697885196
-    F1-Score: 0.8157099697885196
-    AUC Médio: 0.8617824773413898
+    Acurácia: 0.9123867069486404
+    Precisão: 0.9123867069486404
+    Recall: 0.9123867069486404
+    F1-Score: 0.9123867069486404
+    AUC Médio: 0.9342900302114804
 
     ------------- Test -------------
     Métricas por classe:
-    Precisão: [0.         0.91578947 0.        ]
+    Precisão: [0.         0.95789474 0.        ]
     Recall: [0. 1. 0.]
-    F1-Score: [0.         0.95604396 0.        ]
+    F1-Score: [0.         0.97849462 0.        ]
     AUC Médio: [0.5 0.5 0.5]
 
     Média das métricas:
-    Acurácia: 0.9157894736842105
-    Precisão: 0.9157894736842105
-    Recall: 0.9157894736842105
-    F1-Score: 0.9157894736842105
-    AUC Médio: 0.9368421052631579
+    Acurácia: 0.9578947368421052
+    Precisão: 0.9578947368421052
+    Recall: 0.9578947368421052
+    F1-Score: 0.9578947368421052
+    AUC Médio: 0.9684210526315788
 
-![Alt text](./img/auc5.png)
+![Alt text](./img/auc6.png)
