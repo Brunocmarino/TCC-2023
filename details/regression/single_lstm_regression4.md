@@ -2,29 +2,29 @@
 
 ## Variáveis no modelo 
 
-df.Close.size: 3332
-target_df_Close.size: 3317
-target_df_Change.size: 3317
-target_df_Variation.size: 3317
+    df.Close.size: 3332
+    target_df_Close.size: 3317
+    target_df_Change.size: 3317
+    target_df_Variation.size: 3317
 
-Tamanhos dos dados:
-size: 3317
-train_size: 2321
-validation_size: 331
-test_size: 665
+    Tamanhos dos dados:
+    size: 3317
+    train_size: 2321
+    validation_size: 331
+    test_size: 665
 
-x_train_data.shape: (2335, 5)
-x_val_data.shape: (345, 5)
-x_test_data.shape: (679, 5)
-y_train_data.shape: (2321, 1)
-y_val_data.shape: (331, 1)
-y_test_data.shape: (665, 1)
+    x_train_data.shape: (2335, 5)
+    x_val_data.shape: (345, 5)
+    x_test_data.shape: (679, 5)
+    y_train_data.shape: (2321, 1)
+    y_val_data.shape: (331, 1)
+    y_test_data.shape: (665, 1)
 
-Formas dos DataFrames e arrays:
-df.shape: (3332, 5)
-x_train.shape: (2321, 15, 5), y_train.shape: (2321, 1)
-x_val.shape: (331, 15, 5), y_val.shape: (331, 1)
-x_test.shape: (665, 15, 5), y_test.shape: (665, 1)
+    Formas dos DataFrames e arrays:
+    df.shape: (3332, 5)
+    x_train.shape: (2321, 15, 5), y_train.shape: (2321, 1)
+    x_val.shape: (331, 15, 5), y_val.shape: (331, 1)
+    x_test.shape: (665, 15, 5), y_test.shape: (665, 1)
 ## Melhor modelo RandomSearch
     Trial 100 Complete
     Best val_loss So Far: 0.00046592572471126914
