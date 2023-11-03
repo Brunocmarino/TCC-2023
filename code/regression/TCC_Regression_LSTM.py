@@ -9,10 +9,10 @@ Original file is located at
 Nesse projeto uso LSTM para descobrir qual é o preço de fechamento do bitcoin. Uso 5 features relativas ao candle de negociação diária e prevejo o preço de fechamento do dia seguinte
 """
 
-!pip install keras-tuner
-!pip install tensorflow
-!pip install numpy
-!pip install pandas
+# !pip install keras-tuner
+# !pip install tensorflow
+# !pip install numpy
+# !pip install pandas
 
 #Importar as bibliotecas necessárias
 import os
