@@ -42,7 +42,7 @@ x_test.shape: (660, 30, 5), y_test.shape: (660, 1)
 ## Treinamento 
     Treinado por 500 épocas com EarlyStop com paciência de 100 épocas
 
-![Alt text](loss2.png)
+![Alt text](./img/loss2.png)
 ## Métricas de Regressão
 
     ------------- Train -------------
@@ -65,62 +65,65 @@ x_test.shape: (660, 30, 5), y_test.shape: (660, 1)
     R²: 0.8702369931043442
 
 ## Métricas de Classificação
-Target Class Threshold: 3
-0     913
-1    1162
-2    1221
-Name: YClass, dtype: int64
 
-Métricas por classe:
-Precisão: [0.         0.38622754 0.23006135]
-Recall: [0.         0.43143813 0.4076087 ]
-F1-Score: [0.         0.40758294 0.29411765]
-AUC Médio: [0.5        0.43178555 0.44014889]
+    Target Class Threshold: 3
+    0     913
+    1    1162
+    2    1221
+    Name: YClass, dtype: int64
 
-Média das métricas:
-Acurácia: 0.3090909090909091
-Precisão: 0.3090909090909091
-Recall: 0.3090909090909091
-F1-Score: 0.3090909090909091
-AUC Médio: 0.4818181818181818
+    Métricas por classe:
+    Precisão: [0.         0.38622754 0.23006135]
+    Recall: [0.         0.43143813 0.4076087 ]
+    F1-Score: [0.         0.40758294 0.29411765]
+    AUC Médio: [0.5        0.43178555 0.44014889]
+
+    Média das métricas:
+    Acurácia: 0.3090909090909091
+    Precisão: 0.3090909090909091
+    Recall: 0.3090909090909091
+    F1-Score: 0.3090909090909091
+    AUC Médio: 0.4818181818181818
 =================================
-Target Class Threshold: 5
-0     683
-1    1668
-2     945
-Name: YClass, dtype: int64
-Métricas por classe:
-Precisão: [0.         0.54790419 0.14723926]
-Recall: [0.         0.44634146 0.384     ]
-F1-Score: [0.         0.49193548 0.21286031]
-AUC Médio: [0.5        0.42117073 0.43218692]
 
-Média das métricas:
-Acurácia: 0.35
-Precisão: 0.35
-Recall: 0.35
-F1-Score: 0.35
-AUC Médio: 0.5125000000000001
+    Target Class Threshold: 5
+    0     683
+    1    1668
+    2     945
+    Name: YClass, dtype: int64
+    Métricas por classe:
+    Precisão: [0.         0.54790419 0.14723926]
+    Recall: [0.         0.44634146 0.384     ]
+    F1-Score: [0.         0.49193548 0.21286031]
+    AUC Médio: [0.5        0.42117073 0.43218692]
+
+    Média das métricas:
+    Acurácia: 0.35
+    Precisão: 0.35
+    Recall: 0.35
+    F1-Score: 0.35
+    AUC Médio: 0.5125000000000001
 =================================
-Target Class Threshold: 7
-0     502
-1    2044
-2     750
-Name: YClass, dtype: int64
 
-Métricas por classe:
-Precisão: [0.         0.66467066 0.11042945]
-Recall: [0.         0.46835443 0.36363636]
-F1-Score: [0.         0.54950495 0.16941176]
-AUC Médio: [0.5        0.43310195 0.42335116]
+    Target Class Threshold: 7
+    0     502
+    1    2044
+    2     750
+    Name: YClass, dtype: int64
 
-Média das métricas:
-Acurácia: 0.39090909090909093
-Precisão: 0.39090909090909093
-Recall: 0.39090909090909093
-F1-Score: 0.39090909090909093
-AUC Médio: 0.5431818181818182
+    Métricas por classe:
+    Precisão: [0.         0.66467066 0.11042945]
+    Recall: [0.         0.46835443 0.36363636]
+    F1-Score: [0.         0.54950495 0.16941176]
+    AUC Médio: [0.5        0.43310195 0.42335116]
 
-![Alt text](2_auc_threshold3.png)
-![Alt text](2_auc_threshold5.png)
-![Alt text](2_auc_threshold7.png)
+    Média das métricas:
+    Acurácia: 0.39090909090909093
+    Precisão: 0.39090909090909093
+    Recall: 0.39090909090909093
+    F1-Score: 0.39090909090909093
+    AUC Médio: 0.5431818181818182
+
+![Alt text](./img/2_auc_threshold3.png)
+![Alt text](./img/2_auc_threshold5.png)
+![Alt text](./img/2_auc_threshold7.png)

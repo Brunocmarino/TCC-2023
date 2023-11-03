@@ -16,7 +16,7 @@
 ## Treinamento 
     Treinado por 500 épocas com EarlyStop com paciência de 100 épocas
 
-![Alt text](loss.png)
+![Alt text](./img/loss1.png)
 
 ## Métricas de Classificação
 
@@ -40,4 +40,4 @@ Recall: 0.9167927382753404
 F1-Score: 0.9167927382753404
 AUC Médio: 0.9375945537065054
 
-![Alt text](image.png)
+![Alt text](./img/auc1.png)
