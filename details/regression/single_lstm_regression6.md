@@ -128,7 +128,6 @@
 
     
 =========================
-![Alt text](image.png)
 ![Alt text](./img/6auc_threshold3.png)
 ![Alt text](./img/6auc_threshold5.png)
 ![Alt text](./img/6auc_threshold7.png)

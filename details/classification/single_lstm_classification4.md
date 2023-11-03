@@ -1,4 +1,4 @@
-# Single Layer LSTM Classification 3
+# Single Layer LSTM Classification 4
 
     df.Close.size: 3332
     target_df_Close.size: 3317
@@ -49,7 +49,6 @@
 ## Treinamento 
     Treinado por 500 épocas com EarlyStop com paciência de 100 épocas
 ![Alt text](./img/loss4.png)
-![Alt text](image.png)
 
 ## Métricas de Classificação
 
