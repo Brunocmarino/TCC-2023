@@ -28,13 +28,22 @@
 
 ## Melhor modelo RandomSearch
 
+    Trial 100 Complete 
+    Best val_loss So Far: 0.9094551801681519
+    Total elapsed time: 02h 20m 42s
+    Objective(name="val_loss", direction="min")
 
+    Trial 085 summary
+    Hyperparameters:
+    num_lstm_units: 112
+    dropout_rate: 0.2409233878119169
+    learning_rate: 0.08976726357510435
+    Score: 0.9094551801681519
 
 ## Treinamento 
 
     Treinado por 500 épocas com EarlyStop com paciência de 100 épocas
 ![Alt text](./img/loss11.png)
-
 ## Métricas de Regressão
 
     
