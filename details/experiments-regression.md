@@ -252,3 +252,25 @@
     - Épocas e earlystop: 500, patience 100
   - Threshold: 3%, 5% e 7%
   
+## **11 : regressao_11_lstm**
+
+  - Técnica de ML: **Regressão**
+  - Window Size (Time Step): **60 dias**
+  - Dia predito (Future date): **7 dias** no futuro
+  - Seed: 0
+  - Features: Open, High, Low, Close, Volume
+  - Valor Predito: Log do preço de fechamento
+  - Número de Amostras: 3332 dias, 
+  - Modelo de ML usado: LSTM
+    - Random Search
+      - Cenários: 100
+      - Épocas: 25
+      - Camadas de LSTM: 1
+      - Células em cada camada LSTM: 16, 32, 64, 80, 76, 92 ou 128;
+      - Dropout: entre 0 e 0,4
+      - Taxa de aprendizado do otimizador Adam: entre 0,001 e 0,1
+      - Função de Ativação: relu ou tanh
+    - Função de Loss: mean_squared_error
+    - Épocas e earlystop: 500, patience 100
+  - Threshold: 3%, 5% e 7%
+  
