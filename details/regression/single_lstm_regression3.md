@@ -1,4 +1,4 @@
-# Single Layer LSTM Regression 1
+# Single Layer LSTM Regression 3
 
 ## Variáveis no modelo 
 
